@@ -6,7 +6,7 @@ async function searchNews(q) {
     "method": "GET",
     "headers": {
       "x-rapidapi-host": "bing-news-search1.p.rapidapi.com",
-      "x-rapidapi-key": "45d324ae76mshe5038f6565cef0ep100f39jsn839e4ee61512",
+      "x-rapidapi-key": process.env.REACT_APP_API_KEY,
       "x-bingapis-sdk": "true"
     }
   });
